@@ -1,0 +1,90 @@
+.iconWrapper{
+    background: linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(234, 179, 0, 0.06) 100%);
+    backdrop-filter: blur(50px);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    transform: translateY(-50px);
+}
+.viewDetails{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top:4.6rem;
+    width: 290px;
+    align-items: center;
+}
+.viewDetails *{
+    width: 100%;
+    text-align: center;
+}
+
+.detailsField{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 40px;
+    width: 242px;
+    border-radius: 17px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    background: linear-gradient(0deg, #14172B, #14172B),
+linear-gradient(180deg, rgba(236, 240, 255, 0.1) 0%, rgba(59, 63, 87, 0) 100%);
+
+    border: 1px solid linear-gradient(180deg, rgba(236, 240, 255, 0.1) 0%, rgba(59, 63, 87, 0) 100%);
+
+    font-family: 'Tomorrow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 31px;
+    
+    text-align: center;
+    color: #ECF0FF;
+    opacity: 0.9;
+}
+
+.labelField{
+    height: 2rem;
+
+    font-family: 'Tomorrow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 31px;
+
+    text-align: center;
+
+    color: #5A5F7D;
+    opacity: 0.9;
+}
+
+.percField{
+    font-family: 'Tomorrow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 31px;
+    
+    color: #00FFA3;
+
+    opacity: 0.9;
+}
+
+@media screen and (max-width:731px){
+    .card{
+        transform: scale(0.9);
+    }
+}
+
+@media screen and (max-width:670px){
+    .card{
+        transform: scale(0.75);
+    }
+}

@@ -1,10 +1,13 @@
 import React from 'react';
 import './App.css';
+import CardWrapper from './Components/CardWrapper';
+import Header from './Components/Header';
 
 const App:React.FC=()=> {
   return (
-    <div>
-      
+    <div className="app">
+        <Header/>
+        <CardWrapper/>
     </div>
   );
 }
